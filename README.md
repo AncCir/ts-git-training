@@ -49,7 +49,7 @@ Before starting to resolve the conflicts on each branch, it's a good idea to tak
     - Force push your feature branch. It should now be possible to merge the PR that you previously created
         - **Note:** Force pushing is quite dangerous, and you shouldn't get into the habit of doing it other than for this specific case where a branch has been rebased and you need to update the remove version. On our project, the `main` branch will be protected against force pushing.
 2. Without using GitHub, get all of the features on to the `main` branch only using `git merge` commands.
-3. Without using GitHub, get all of the features on to the `main` branch only using `git rebase` commands.
+3. Without using GitHub, get all of the features onto a single branch only using `git rebase` commands (this branch doesn't have to be `main`).
 
 After each run-through, you will want to revert your repository back to its starting state. You might want to explore ways of doing this (without re-forking the original repo), for example:
 
